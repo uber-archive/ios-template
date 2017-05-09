@@ -32,7 +32,7 @@ OUTPUT=$(swiftformat \
   --header "$HEADER" \
   --disable redundantSelf,unusedArguments,hoistPatternLet,redundantBackticks,redundantReturn,linebreakAtEndOfFile \
   --output "$TMPFILE" \
-  "$2" 2>&1 > /dev/null)
+  **/*.swift)
 
 if [ "$OUTPUT" ]; then
   echo "$OUTPUT" >&2
