@@ -1,6 +1,6 @@
 # iOS-Template
 
-[![Build Status](https://travis-ci.com/uber/ios-template.svg)](https://travis-ci.org/uber/ios-template)
+[![Build Status](https://travis-ci.org/uber/ios-template.svg?branch=master)](https://travis-ci.org/uber/ios-template)
 
 This template provides a starting point for open source iOS projects at Uber.
 
